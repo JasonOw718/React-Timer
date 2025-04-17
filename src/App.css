@@ -1,0 +1,68 @@
+/* Center the entire app */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e2e;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+/* Styling for the Clock */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Button Container */
+button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Start Button */
+button:nth-child(1) {
+  background-color: #4caf50;
+  color: white;
+}
+
+button:nth-child(1):hover {
+  background-color: #45a049;
+}
+
+/* Pause Button */
+button:nth-child(2) {
+  background-color: #f39c12;
+  color: white;
+}
+
+button:nth-child(2):hover {
+  background-color: #e67e22;
+}
+
+/* Reset Button */
+button:nth-child(3) {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button:nth-child(3):hover {
+  background-color: #c0392b;
+}
+
+/* Wrapper for the clock and buttons */
+.ClockPanel {
+  text-align: center;
+  background: #2c2c38;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
